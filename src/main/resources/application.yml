@@ -1,0 +1,8 @@
+rocketmq:
+  producer:
+    group: pg-thb-test
+    topic: THB_TEST_TOPIC
+  consumer:
+    group: cg-thb-test
+    topic: THB_TEST_TOPIC
+  name-server: 127.0.0.1:9876
