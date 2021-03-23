@@ -2,7 +2,7 @@
 
 ## 项目启动
 
-### rocketMq安装
+### rocket MQ 安装
 
 #### 1.  安装&启动 NameServer
 
@@ -29,7 +29,7 @@ docker run -d --name rmqconsole -p 8180:8080 --link rmqserver:namesrv\
  -t styletang/rocketmq-console-ng
 ```
 
-#### 4. 查看 rocketMq 是否安装成功
+#### 4. 查看 rocket MQ 是否安装成功
 
 [http://127.0.0.1:8180](http://127.0.0.1:8180)
 
@@ -122,7 +122,7 @@ bean 在初始化时如果当前的后置处理器数量小于容器加载完毕
 
 rocketmq-spring-boot-starter 2.1.0 时删除了 `RocketMQTransactionAnnotationProcessor`, aop 失效问题完美解决
 
-2. `手动` 后置处理 (不推荐)
+2. 手动后置处理 (不推荐)
 
 
 ```java
